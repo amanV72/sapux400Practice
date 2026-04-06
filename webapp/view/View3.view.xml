@@ -1,4 +1,4 @@
-<mvc:View controller="demo.practice.practice.controller.View3"
+<mvc:View controllerName="demo.practice.practice.controller.View3"
 xmlns:mvc="sap.ui.core.mvc"
 xmlns="sap.m"
  >
