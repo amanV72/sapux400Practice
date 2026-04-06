@@ -1,0 +1,33 @@
+<mvc:View controller="demo.practice.practice.controller.View4"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+ >
+
+ <VBox class="sapUiSmallMargin"
+ width="70rem">
+
+    <Title text="Password show/hide toggle" class="sapUiSmallMarginBottom"/>
+
+    <Input 
+       id="passwordIn"
+       value="{/password}"
+       type="{/inputType}"
+       placeholder="Enter password"
+    
+    />
+
+    <Button 
+
+      text="{/buttonText}"
+      type="Emphasized"
+      press="onTogglePassword"
+      class="sapUiSmallMarginTop">
+    
+    </Button>
+
+ 
+ 
+
+ </VBox>
+ 
+ </mvc:View>
