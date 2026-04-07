@@ -14,7 +14,8 @@ sap.ui.define([
                     {key:2,text:"Option 2"},
                     {key:3,text:"Option 3"},
                     {key:4,text:"Option 4"},
-                    {key:5,text:"Option 5"}
+                    {key:5,text:"Option 5"},
+                    {key:6,text:"Option 6"}
                     
                 ]
             });
