@@ -1,0 +1,18 @@
+<mvc:View controllerName="demo.practice.practice.controller.View6"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+>
+     <VBox class="sapUiSmallMargin" width="20rem">
+         <Title text="Number Only Input" class="sapUiSmallMarginBottom"/>
+
+         <Input 
+           id="numberInput"
+           value="{/number}"
+           liveChange="onLiveChange"
+           placeholder="Enter numbers only"
+         />
+     </VBox>
+
+
+
+</mvc:View>

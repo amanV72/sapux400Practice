@@ -1,0 +1,23 @@
+<mvc:View controllerName="demo.practice.practice.controller.View5"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m">
+
+<VBox class="sapUiSmallMargin" width="20rem">
+   
+   <Title text="Email valdation" class="sapUiSmallMaginBottom"/>
+
+   <Input 
+     id="emailInput"
+     value="{/email}"
+     liveChange="onLiveChange"
+     placeholder="Enter Email address"
+   />
+
+
+</VBox>
+ 
+ 
+ 
+ 
+ 
+ </mvc:View>

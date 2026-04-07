@@ -1,0 +1,30 @@
+<mvc:View controllerName="demo.practice.practice.controller.View9"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+>
+
+    <VBox class="sapUiSmallMargin" width="20rem">
+         <Title text="Multi-field Validation" class="sapUiSmallMarginBottom"/>
+
+         <Input 
+           id="nameInput1"
+           value="{/name}"
+           placeholder="Enter name"
+           class="sapUiSmallMarginBottom"
+         />
+         <Input 
+           id="emailInput1"
+           value="{/email}"
+           placeholder="Enter email"
+           class="sapUiSmallMarginBottom"
+         />
+         <Button 
+           text="Validate"
+           type="Emphasized"
+           press="onValidate"
+         />
+    </VBox>
+
+
+
+</mvc:View>
