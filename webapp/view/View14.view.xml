@@ -1,0 +1,25 @@
+<mvc:View controllerName="demo.practice.practice.controller.View14"
+xmlns:core="sap.ui.core"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+>
+
+    <VBox class="sapUiSmallMargin" width="20rem">
+      <Title text="show/hide section" class="sapUiSmallMarginBottom"></Title> 
+
+      <Button 
+        text="Toggle Section"
+        type="Emphasized"
+        press="onToggle"
+      />
+      <!--Section to show/hide-->
+      <VBox 
+      visible="{/isVisible}"
+      class="sapUiSmallMarginTop">
+        <Text text="This section is dynamically shown or hidden"></Text>
+        <Input placeholder="Inside section"></Input>
+      </VBox>
+
+    </VBox>
+
+</mvc:View>

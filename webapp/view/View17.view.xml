@@ -1,0 +1,36 @@
+<mvc:View controllerName="demo.practice.practice.controller.View17"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+>
+
+    <VBox class="sapUiSmallMargin" width="96%">
+      <Title text="Scroll Contianer demo" class="sapUiSmallMarginBottom"></Title> 
+
+      <ScrollContainer 
+       height="200px"
+       width="100%"
+       vertical="true"
+       horizontal="false"
+       class="sapUiBorder"
+      >
+      
+         <VBox class="sapUiSmallMargin">
+           <Text text="Item 1" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 2" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 3" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 4" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 5" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 6" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 7" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 8" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 9" class="sapUiSmallMarginBottom"></Text>
+           <Text text="Item 10" class="sapUiSmallMarginBottom"></Text>
+          
+         </VBox>
+       
+      
+      </ScrollContainer>
+
+    </VBox>
+
+</mvc:View>

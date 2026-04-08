@@ -1,0 +1,17 @@
+<mvc:View controllerName="demo.practice.practice.controller.View18"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+>
+
+    <VBox class="sapUiSmallMargin" width="20rem">
+      <Title text="Load xml fragment" class="sapUiSmallMarginBottom"></Title> 
+
+      <Button 
+        text="Open Fragment"
+        type="Emphasized"
+        press="onOpenFragment"
+      ></Button>
+
+    </VBox>
+
+</mvc:View>

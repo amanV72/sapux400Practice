@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+xmlns="sap.m"
+xmlns:core="sap.ui.core"
+
+>
+     <Dialog title="My fragment dialog">
+       <VBox class="sapUiSmallMargin">
+         <Text text="this is loaded from xml fragment"></Text>
+       </VBox>
+
+       <endButton>
+         <Button text="Close" press="onCloseFragment"></Button>
+       </endButton>
+     
+     
+     
+     
+     </Dialog>
+
+
+
+
+</core:FragmentDefinition>
